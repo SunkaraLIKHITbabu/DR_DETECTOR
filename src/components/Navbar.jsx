@@ -13,7 +13,6 @@ function Navbar() {
     { path: '/food-recommendations', label: 'Health Guide', protected: true },
     { path: '/stories', label: 'Stories', protected: true },
     { path: '/blog', label: 'Suggestions', protected: true },
-    { path: '/community', label: 'Community', protected: true },
     { path: '/team', label: 'Our Team', protected: true }
   ];
 
