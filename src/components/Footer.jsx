@@ -19,8 +19,7 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="/blog" className="text-gray-300 hover:text-white">Blog</a></li>
-              <li><a href="/community" className="text-gray-300 hover:text-white">Community</a></li>
+              <li><a href="/blog" className="text-gray-300 hover:text-white">Suggestions</a></li>
               <li><a href="/stories" className="text-gray-300 hover:text-white">Patient Stories</a></li>
               <li><a href="/team" className="text-gray-300 hover:text-white">Our Team</a></li>
             </ul>
