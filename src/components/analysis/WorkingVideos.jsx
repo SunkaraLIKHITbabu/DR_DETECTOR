@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 function WorkingVideos() {
   const videos = [
-    { id: 1, src: '/src/assets/dia1.mp4', title: 'Diabetic Retinopathy Detection Process' },
-    { id: 2, src: '/src/assets/dia2.mp4', title: 'AI Analysis Workflow' },
-    { id: 3, src: '/src/assets/dia3.mp4', title: 'Image Processing Steps' }
+    { id: 1, src: '/src/assets/dia1.mp4', title: '⮕ Detection Process' },
+    { id: 2, src: '/src/assets/dia2.mp4', title: '⮕ Analysis Workflow' },
+    { id: 3, src: '/src/assets/dia3.mp4', title: '⮕ Image Processing Steps' }
   ];
 
   return (
@@ -14,7 +14,7 @@ function WorkingVideos() {
         animate={{ opacity: 1, y: 0 }}
         className="text-2xl font-semibold mb-6"
       >
-        Working
+        How It Works ? 🔍
       </motion.h2>
       <div className="grid md:grid-cols-3 gap-6">
         {videos.map((video) => (
